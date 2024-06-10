@@ -9,7 +9,7 @@ public class Main {
         DirectoryOperations dirOps = new DirectoryOperations();
 
         // copiar arquivo
-        fileOps.copyFile("C:\\Users\\TI\\Documents\\Tarefa advpl.txt","C:\\Users\\TI\\Desktop\\");
+        // fileOps.copyFile("C:\\Users\\TI\\Documents\\Tarefa advpl.txt","C:\\Users\\TI\\Desktop\\");
 
         // apagar arquvio
         //fileOps.deleteFile("C:\\Users\\TI\\Desktop\\teste.txt");
@@ -19,10 +19,13 @@ public class Main {
 
 
         // criar diretorio
-        // dirOps.createDirectory("C:\\Users\\TI\\Desktop\\diretorioTeste");
+        //dirOps.createDirectory("C:\\Users\\TI\\Desktop\\diretorioTeste");
 
         // deletar diretorio
         // dirOps.deleteDirectory("C:\\Users\\TI\\Desktop\\diretorioTeste");
+
+        // renomear diretorio
+        dirOps.renameDirectory("C:\\Users\\TI\\Desktop\\canetaAzul", "vozao");
 
         // listar diretorio
         //dirOps.listDirectory("C:\\Users\\TI\\Desktop\\");
