@@ -1,5 +1,7 @@
-copy C:\\Users\\TI\\Desktop\\faculdade\\progFuncAv2.txt to C:\Users\TI\Desktop\progFuncAv2.txt
-copy C:\\Users\\TI\\Desktop\\faculdade\\progFuncAv2.txt to C:\Users\TI\Desktop\progFuncAv2.txt
-renomeando diretorio C:\Users\TI\Desktop\teste para morango
-copy C:\\Users\\TI\\Desktop\\faculdade\\progFuncAv2.txt to C:\Users\TI\Desktop\progFuncAv2.txt
-renomeando diretorio C:\Users\TI\Desktop\morango para protheus
+copiando C:\\Users\\TI\\Desktop\\faculdade\\progFuncAv2.txt para C:\Users\TI\Desktop\progFuncAv2.txt
+renomeando arquivo C:\Users\TI\Desktop\progFuncAv2.txt para C:\Users\TI\Desktop\banana.txt
+Apagando arquivo: C:\\Users\\TI\\Desktop\\banana.txt
+Criando diretorio em: C:\\Users\\TI\\Desktop\\novo
+renomeando diretorio C:\Users\TI\Desktop\novo para velho
+Criando diretorio em: C:\\Users\\TI\\Desktop\\faculdade\\
+listando diretorio em: C:\\Users\\TI\\Desktop\\faculdade\\

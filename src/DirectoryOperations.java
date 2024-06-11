@@ -7,6 +7,7 @@ public class DirectoryOperations {
         File dir = new File(dirPath);
         if (dir.mkdir()) {
             System.out.println("Diretorio criado com sucesso.");
+            journal.logOperation("Criando diretorio em: " + dirPath);
         } else {
             System.out.println("Erro ao criar diretorio.");
         }
@@ -16,6 +17,7 @@ public class DirectoryOperations {
         File dir = new File(dirPath);
         if (dir.delete()) {
             System.out.println("Diretorio deletado com sucesso.");
+            journal.logOperation("Apagando diretorio: " + dirPath);
         } else {
             System.out.println("Erro ao deletar diretorio.");
         }
@@ -57,6 +59,7 @@ public class DirectoryOperations {
             for (String file : files) {
                 System.out.println(file);
             }
+            journal.logOperation("listando diretorio em: " + dirPath);
         } else {
             System.out.println("arquivo informado não é um diretorio.");
         }

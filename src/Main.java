@@ -5,7 +5,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         FileOperations fileOps = new FileOperations();
         DirectoryOperations dirOps = new DirectoryOperations();
-        JournalManager journal = new JournalManager();
 
         System.out.println("Simulador de sistema de arquivos");
 

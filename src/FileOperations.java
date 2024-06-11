@@ -29,7 +29,7 @@ public class FileOperations {
         try {
             Files.copy(srcFile.toPath(), destFile.toPath(), StandardCopyOption.REPLACE_EXISTING);
             System.out.println("arquivo copiado com sucesso para: " + destFile.getPath());
-            journal.logOperation("copy " + source + " to " + destFile.getPath());
+            journal.logOperation("copiando " + source + " para " + destFile.getPath());
         } catch (IOException e) {
             System.out.println("Erro ao copiar: " + e.getMessage());
         }
@@ -39,6 +39,7 @@ public class FileOperations {
         File file = new File(filePath);
         if (file.delete()) {
             System.out.println("Arquivo deletado com sucesso.");
+            journal.logOperation("Apagando arquivo: "+ filePath);
         } else {
             System.out.println("Erro ao deletar arquivo.");
         }
@@ -56,6 +57,7 @@ public class FileOperations {
 
         if (filePath.renameTo(newFileName)) {
             System.out.println("Arquivo renomeado com sucesso.");
+            journal.logOperation("renomeando arquivo " + path + " para " + newFilePath);
         } else {
             System.out.println("Erro ao renomear arquivo");
         }
