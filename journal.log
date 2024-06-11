@@ -1,5 +1,5 @@
-copy C:\Users\TI\Documents\Tarefa advpl.txt to C:\Users\TI\Desktop\Tarefa advpl.txt
-copy C:\Users\TI\Documents\Tarefa advpl.txt to C:\Users\TI\Desktop\Tarefa advpl.txt
-copy C:\Users\TI\Documents\Tarefa advpl.txt to C:\Users\TI\Desktop\Tarefa advpl.txt
-renomeando diretorio C:\Users\TI\Desktop\diretorioTeste para canetaAzul
-renomeando diretorio C:\Users\TI\Desktop\canetaAzul para vozao
+copy C:\\Users\\TI\\Desktop\\faculdade\\progFuncAv2.txt to C:\Users\TI\Desktop\progFuncAv2.txt
+copy C:\\Users\\TI\\Desktop\\faculdade\\progFuncAv2.txt to C:\Users\TI\Desktop\progFuncAv2.txt
+renomeando diretorio C:\Users\TI\Desktop\teste para morango
+copy C:\\Users\\TI\\Desktop\\faculdade\\progFuncAv2.txt to C:\Users\TI\Desktop\progFuncAv2.txt
+renomeando diretorio C:\Users\TI\Desktop\morango para protheus
